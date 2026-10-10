@@ -1,5 +1,5 @@
 [project]
-name = "hello-world-bot"
+name = "hello-world-thing"
 version = "0.1.0"
 description = "CLI-генератор ASCII-арта с чистой архитектурой"
 requires-python = ">=3.10"

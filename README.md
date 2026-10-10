@@ -1,4 +1,4 @@
-# Hello World Bot
+# hello-world-thing
 
 CLI-генератор ASCII-арта на Python с чистой архитектурой.
 
