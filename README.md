@@ -1,3 +1,4 @@
+![CI](https://github.com/dude2007-dev/hello-world-thing/actions/workflows/ci.yml/badge.svg)
 # hello-world-thing
 
 CLI-генератор ASCII-арта на Python с чистой архитектурой.
