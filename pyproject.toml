@@ -1,0 +1,23 @@
+[project]
+name = "hello-world-bot"
+version = "0.1.0"
+description = "CLI-генератор ASCII-арта с чистой архитектурой"
+requires-python = ">=3.10"
+dependencies = [
+    "pyfiglet==1.0.4",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.1.1",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["main"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

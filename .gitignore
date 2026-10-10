@@ -1,0 +1,26 @@
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# Python-мусор
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Тесты и кэш
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Настройки IDE
+.vscode/
+.idea/
+*.swp
+
+# Секреты
+.env
