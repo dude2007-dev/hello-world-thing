@@ -25,3 +25,15 @@ jobs:
 
       - name: Run tests
         run: python -m pytest -v
+
+  docker:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: docker build -t hello-world-thing .
+
+      - name: Run container
+        run: docker run --rm hello-world-thing --text "CI" --font standard
